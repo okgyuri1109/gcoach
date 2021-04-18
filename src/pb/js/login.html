@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, 
+  maximum-scale=1.0, minimum-scale=1.0">
+    <title>로그인</title>
+</head>
+<body>
+    <div class="G-COACH__title">
+        <img src="images/logo.png">
+    </div>
+
+    <main class="serve-screen">
+        <div class="login-form__title">
+            <h1>로그인</h1>
+        </div>
+
+        <form action="main.html" method="GET" id="login-form">
+            <span>아이디</span>
+            <input name="username" type="text" placeholder="abc@gmail.com" />
+            <span>비밀번호</span>
+            <input name="userpassword" type="password" placeholder="영문, 숫자, 특수문자"/>
+            <label><input type="checkbox" name="로그인상태유지" value="login" checked> 로그인상태유지</label>
+            <input type="submit" value="로그인" />
+                <!-- 구글 로그인 -->
+                <a href="">
+                <img src="./images/btn_google_signin_light_normal_web.png" alt="" class="google-button"></a>
+                <!-- 네이버 로그인
+                <a class="naver-button" href="">
+                    <img src="./images/Log in with NAVER_Official_Green.PNG" alt=""></a> -->
+                <!-- 카카오 로그인 
+                <a class="kakao-button" href="">
+                    <img src="./images/kakao_login_large_narrow.png" alt=""></a>-->
+                <div class="find_box">
+                    <a href="find_id.html">아이디 찾기</a>
+                    <a><span>/</span></a>
+                    <a href="find_pw.html">비밀번호 찾기</a>
+                </div>
+        </form>
+
+        <div class="link-form">
+            <a href="join.html">회원으로 가입하시겠어요?</a>
+        </div>
+    </main>
+
+    
+    <script src="https://kit.fontawesome.com/d1dbd1f9d9.js" crossorigin="anonymous"></script>
+</body>
+</html>
